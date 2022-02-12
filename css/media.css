@@ -1,0 +1,770 @@
+
+/* ==== ==== 1. Extra-Small Devices ==== ==== */
+/* ==== ==== (X-sm) Screen ==== ==== */
+
+@media(max-width: 575.98px){
+    
+/* === === X-sm Common Start === ==== */
+
+a.item_link {
+    font-size: 14px;
+    padding: 9px 25px 10px 25px;
+}
+
+/* === === X-sm Header Start === ==== */
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 22px;
+}
+
+.navbar-nav .nav-link::after {
+    bottom: 0px;
+}
+
+/* === === X-sm Banner Start === ==== */
+
+#banner {
+    padding-top: 100px;
+    padding-bottom: 65px;
+    overflow-x: hidden;
+}
+
+.ban_text {
+    padding: 15px;
+}
+
+.ban_text h3 {
+    font-size: 65px;
+}
+
+.ban_text h4 {
+    font-size: 40px;
+}
+
+.ban_text p {
+    font-size: 12px;
+    line-height: 19px;
+    width: 190px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 33px 2px 0 10px;
+}
+
+.ban_text p::before {
+    top: 38px;
+    left: -5px;
+    height: 53px;
+}
+
+.ban_text p::after {
+    top: 91px;
+    left: -5px;
+    height: 52px;
+}
+
+/* === === X-sm Welcome Start === ==== */
+
+#welcome {
+    padding-bottom: 75px;
+    overflow-x: hidden;
+}
+
+.welcome_photo {
+    position: unset;
+    padding-bottom: 25px;
+}
+
+/* === === X-sm Programme Start === ==== */
+
+#prog {
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+
+.prog_text h3 {
+    line-height: 36px;
+}
+
+.prog_text p {
+    padding-bottom: 18px;
+    width: fit-content;
+}
+
+.prog_text a {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#prog_sld_lg {
+    display: none;
+}
+
+#prog_sld_sm {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.prog_item {
+    border: 1px solid #00e9ff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* === === X-sm Event Start === ==== */
+
+#event {
+    overflow: hidden;
+}
+
+#event button {
+    width: 100%;
+}
+
+#pv_btn {
+    margin-bottom: 20px!important;
+}
+
+.event_text p {
+    font-size: 18px;
+}
+
+.event_olay i {
+    margin: 12px;
+}
+
+/* === === X-sm Form Start === ==== */
+
+#form {
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.form_photo {
+    height: 700px;
+    margin-bottom: 30px;
+}
+
+.form_core .sp_pd_rt {
+    padding-right: 15px;
+}
+
+.form_core .sp_pd_lf {
+    padding-left: 15px;
+}
+
+.form_field button {
+    margin-top: 60px;
+}
+
+.form_field .check_box_area {
+    left: 16%;
+}
+
+/* === === X-sm Team Start === ==== */
+
+.team_text h3 {
+    font-size: 25px;
+}
+
+.team_text p {
+    padding-bottom: 26px;
+    width: 200px;
+}
+
+.team_social i {
+    margin-right: 4px;
+}
+
+/* === === X-sm Gallery Start === ==== */
+
+#gallery {
+    padding-top: 65px;
+}
+
+#gallery .sp_mg_top {
+    margin-top: 15px;
+}
+
+#gallery .sp_mg_map {
+    margin-top: 70px;
+}
+
+.map_photo {
+    position: unset;
+}
+
+.map_text {
+    padding-top: 40px;
+}
+
+.add_icon {
+    top: -12px;
+    left: 0;
+    z-index: -9;
+}
+
+.add_icon i {
+    margin-left: 20px;
+}
+
+.add_item h3 {
+    padding-left: 55px;
+}
+
+/* === === X-sm Footer Start === ==== */
+
+#footer {
+    padding-top: 30px;
+}
+
+.footer_btn {
+    padding-bottom: 28px;
+}
+
+.footer_btn a {
+    margin: 0 15px;
+    line-height: 35px;
+}
+
+.foot_text p {
+    line-height: 22px;
+    padding: 22px 0;
+}
+
+/* ==== X-sm END ==== */
+    
+}
+
+/* ==== ==== 2. Small Devices ==== ==== */
+/* ==== ==== (sm) Screen ==== ==== */
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    
+/* === === SM Common Start === ==== */
+
+a.item_link {
+    font-size: 14px;
+    padding: 9px 25px 10px 25px;
+}
+
+/* === === SM Header Start === ==== */
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 22px;
+}
+
+.navbar-nav .nav-link::after {
+    bottom: 0px;
+}
+
+/* === === SM Banner Start === ==== */
+
+#banner {
+    padding-top: 135px;
+    padding-bottom: 130px;
+    overflow-x: hidden;
+}
+
+.ban_text {
+    padding: 20px;
+}
+
+.ban_text h3 {
+    font-size: 85px;
+}
+
+.ban_text h4 {
+    font-size: 55px;
+}
+
+.ban_text p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 310px;
+    margin-top: 15px;
+    padding: 33px 2px 0 8px;
+}
+
+.ban_text p::before {
+    top: 39px;
+    left: -8px;
+}
+
+.ban_text p::after {
+    top: 73px;
+    left: -8px;
+}
+
+/* === === SM Welcome Start === ==== */
+
+#welcome {
+    padding-bottom: 60px;
+}
+
+.welcome_text h3 {
+    font-size: 25px;
+}
+
+.welcome_text img {
+    width: 60%;
+}
+
+.welcome_text p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.welcome_photo {
+    position: unset;
+}
+
+/* === === SM Programme Start === ==== */
+
+#prog {
+    padding-top: 70px;
+}
+
+.prog_text p {
+    width: fit-content;
+}
+
+.prog_text a {
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+#prog_sld_lg {
+    display: none;
+}
+
+#prog_sld_sm {
+    display: block;
+    margin-bottom: 65px;
+}
+
+.prog_item {
+    border: 1px solid #00e9ff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.prog_slider .slick-dots {
+    bottom: -64px;
+    left: 50%;
+}
+
+.prog_social {
+    width: 200px;
+    text-align: center;
+}
+
+.prog_item_text p {
+    font-size: 15px;
+}
+
+/* === === SM Events Start === ==== */
+
+.event_text p {
+    font-size: 18px;
+}
+
+.event_btn_top button {
+    width: 200px;
+}
+
+/* === === SM Form Start === ==== */
+
+#form {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.form_photo {
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.form_core .sp_pd_rt {
+    padding-right: 15px;
+}
+
+.form_core .sp_pd_lf {
+    padding-left: 15px;
+}
+
+.form_field .check_box_area {
+    left: 13%;
+}
+
+/* === === SM Team Start === ==== */
+
+.team_text h3 {
+    font-size: 25px;
+}
+
+.team_text p {
+    padding-bottom: 16px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.team_social i {
+    margin-right: 1px;
+}
+
+/* === === SM Gallery Start === ==== */
+
+#gallery {
+    padding-top: 65px;
+}
+
+#gallery .sp_mg_top {
+    margin-top: 15px;
+}
+
+#gallery .sp_mg_map {
+    margin-top: 70px;
+}
+
+.map_photo {
+    position: unset;
+}
+
+.map_text {
+    padding-top: 40px;
+}
+
+.add_icon {
+    top: -12px;
+    left: 0;
+    z-index: -9;
+}
+
+.add_icon i {
+    margin-left: 20px;
+}
+
+.add_item h3 {
+    padding-left: 55px;
+}
+
+/* === === SM Footer Start === ==== */
+
+#footer {
+    padding-top: 30px;
+}
+
+.footer_btn {
+    padding-bottom: 28px;
+}
+
+.footer_btn a {
+    margin: 0 12px;
+    line-height: 35px;
+}
+
+/* ==== SM END ==== */
+    
+}
+
+/* ==== ==== 3. Medium Devices ==== ==== */
+/* ==== ==== (md) Screen ==== ==== */
+
+@media(min-width: 768px) and (max-width: 991.98px){
+
+/* === === MD Common Start === ==== */
+
+a.item_link {
+    font-size: 17px;
+    padding: 10px 27px 11px 27px;
+}
+
+/* === === MD Header Start === ==== */
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 22px;
+}
+
+.navbar-nav .nav-link::after {
+    bottom: 0px;
+}
+    
+/* === === MD Banner Start === ==== */
+
+#banner {
+    padding-top: 200px;
+    padding-bottom: 155px;
+}
+
+.ban_text h3 {
+    font-size: 130px;
+}
+
+.ban_text h4 {
+    font-size: 80px;
+}
+
+.ban_text p {
+    font-size: 16px;
+    width: 470px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* === === MD Welcome Start === ==== */
+
+#welcome {
+    padding-bottom: 80px;
+    padding-bottom: 65px;
+}
+
+.welcome_photo {
+    position: unset;
+}
+
+/* === === MD Programme Start === ==== */
+
+#prog {
+    padding-top: 70px;
+}
+
+.prog_text p {
+    width: fit-content;
+}
+
+.prog_text a {
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+/* === === MD Event Start === ==== */
+
+.event_text p {
+    font-size: 18px;
+}
+
+.event_olay i {
+    margin: 9px;
+}
+
+/* === === MD Form Start === ==== */
+
+.form_core .sp_pd_rt {
+    padding-right: 15px;
+}
+
+.form_core .sp_pd_lf {
+    padding-left: 15px;
+}
+
+.form_field .check_box_area {
+    left: 13%;
+}
+
+/* === === MD Team Start === ==== */
+
+.team_text h3 {
+    font-size: 25px;
+}
+
+.team_text p {
+    padding-bottom: 16px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.team_social i {
+    margin-right: 1px;
+}
+
+/* === === MD Gallery Start === ==== */
+
+#gallery {
+    padding-top: 65px;
+}
+
+#gallery .sp_mg_top {
+    margin-top: 15px;
+}
+
+#gallery .sp_mg_map {
+    margin-top: 70px;
+}
+
+.add_item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.add_item h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.add_item p {
+    font-size: 13px;
+    line-height: 24px;
+    width: 310px;
+}
+
+.map_text {
+    padding-top: 9px;
+    padding-bottom: 80px;
+}
+
+.add_icon {
+    bottom: 4px;
+    left: -90px;
+    width: 120px;
+    height: 40px;
+}
+
+.add_icon i {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+i.sp_fnt_loc {
+    font-size: 25px;
+}
+
+i.sp_fnt {
+    font-size: 20px;
+}
+
+/* === === MD Gallery Start === ==== */
+
+#footer {
+    padding-top: 30px;
+}
+
+.footer_btn {
+    padding-bottom: 28px;
+}
+
+.footer_btn a {
+    margin: 0 20px;
+    line-height: 35px;
+}
+
+/* ==== MD END ==== */
+    
+}
+
+/* ==== ==== 4. Large Devices ==== ==== */
+/* ==== ==== (lg) Screen ==== ==== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+    
+/* === === LG Welcome Start === ==== */
+
+#welcome {
+    padding-bottom: 80px;
+}
+
+.welcome_photo {
+    top: -91px;
+    left: -7px;
+}
+
+/* === === LG Programme Start === ==== */
+
+.prog_photo {
+    margin-left: 150px;
+}
+
+/* === === LG Form Start === ==== */
+
+.form_field .check_box_area {
+    left: 14%;
+}
+
+/* === === LG Team Start === ==== */
+
+.team_text h3 {
+    width: 250px;
+}
+
+/* === === LG Gallery Start === ==== */
+
+#gallery {
+    padding-top: 85px;
+}
+
+#gallery .sp_mg_top {
+    margin-top: 25px;
+}
+
+#gallery .sp_mg_map {
+    margin-top: 80px;
+}
+
+.map_text {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.add_item p {
+    font-size: 15px;
+}
+
+.add_item h3 {
+    font-size: 25px;
+    padding-bottom: 13px;
+}
+
+/* === === LG Footer Start === ==== */
+
+#footer {
+    padding-top: 50px;
+}
+
+.footer_btn a {
+    margin: 0 20px;
+}
+
+.footer_btn {
+    padding-bottom: 28px;
+}
+
+
+    
+/* ==== LG END ==== */
+    
+}
+
+/* ==== ==== 5. Extra-Large Devices ==== ==== */
+/* ==== ==== (xl) Screen ==== ==== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px){
+    
+/* === === XL Welcome Start === ==== */
+
+.welcome_photo {
+    left: -9px;
+}
+        
+/* ==== XL END ==== */
+        
+}

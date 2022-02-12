@@ -1,0 +1,47 @@
+
+
+<!-- ==== ==== Header Part Starts Here ==== ==== -->
+<!-- ==== ==== Header Part Ends Here ==== ==== -->
+
+
+/* ==== ==== Header part Starts Here  ==== ==== */
+/* ==== ==== Header part Ends Here  ==== ==== */
+
+
+font-family: 'Arimo', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Georama', sans-serif;
+
+font-family: 'Roboto', sans-serif;
+
+Home          About us          Programmes          Events          Gallery          Contact
+
+
+00e9ff
+
+abc abc abc abc abc abc abc abc abc abc
+
+
+
+<div class="row">
+    <div class="col-lg-8 m-auto">
+        <div class="item_top text-center">
+            <h3>Our Events</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        </div>
+    </div>
+</div>
+
+
+
+/* ==== ==== 5. Extra-Large Devices ==== ==== */
+/* ==== ==== (xl) Screen ==== ==== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px){
+    
+/* === === XL Common Start === ==== */
+/* === === XL Header Start === ==== */
+	
+/* ==== XL END ==== */
+	
+}
